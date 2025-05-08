@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+body
+{
+background-image: url(https://cdn.mos.cms.futurecdn.net/rDJegQJaCyGaYysj2g5XWY-970-80.jpg.webp);
+}
+.form-wrapper{
+ position: absolute;
+left: 50%;
+top: 50%;
+border-radius: 4px;
+padding: 70px;
+width: 450px;
+transform: translate(-50%,-50%);
+background-color: black ;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: auto;
+height: 300px;
+width: 400px;
+}
+.form-wrapper h2{
+    color: white;
+    font-size: 2rem;
+}
+.form-wrapper form{
+    margin: 25px 0 65px;
+}
+form.form-wrapper{
+    height: 50px;
+    position: relative;
+    margin-bottom: 16px;
+}
+form.form-control input{
+    height: 100%;
+    width: 100%;
+    background: #333;
+    border-radius: 4px;
+    color: gainsboro;
+    font-size: 1rem;
+    padding: 0 20px;
+}
+.form-control input:is(:focus, :valid){
+    background: #444;
+    padding: 16px 20px 0;
+}
+.form-control label{
+    position: absolute;
+    left: 20px;
+    top: 50px;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    pointer-events: none;
+    color: #8c8c8c;
+    transition: all 0.1s ease;
+}
+.form-control input:is(:focus, :valid)~label{
+    font-size: 0.75rem;
+    transform: translateY(-130%);
+}
+form button{
+    width: 100%;
+    padding: 16px 0;
+    font-size: 1rem;
+}

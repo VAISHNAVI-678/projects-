@@ -1,0 +1,62 @@
+html,
+body {
+  height: 80%;
+  margin: 8px;
+  font-size: 20px;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 400;
+}
+h1
+{
+    color: purple;
+    font-size: xx-large;
+}
+.pimg1{
+  background-image: url("https://chiefrivernursery.com/media/catalog/product/cache/9820170e8aaf17063e79ec8448f2da6f/p/a/paper-birch-hardwood_1.jpg");
+  min-height: 100%;
+}
+.pimg2 {
+  background-image: url("https://greatplainsnursery.com/wp-content/uploads/2015/09/ostrya_virginiana-leaf.jpg");
+  min-height: 400px;
+}
+.pimg3 {
+  background-image: url("https://www.coldstreamfarm.net/wp-content/uploads/2023/07/serviceberry_canadensis_fruit_istock_71556757_xlarge.jpg");
+  min-height: 400px;
+}
+.pimg1,
+.pimg2,
+.pimg3 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 28px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.textBg {
+  background:plum;
+  color:black;
+  padding: 20px;
+  font-size: larger;
+}
+.section {
+  padding: 50px 80px;
+  text-align: center;
+}
+.section-light {
+  background-color:aquamarine;
+  color:blue;
+}
+.section-dark {
+  background-color:aquamarine;
+  color: blue;
+}

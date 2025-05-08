@@ -1,0 +1,8 @@
+body{
+    background-color:thistle;
+}
+label{
+    font-size: 140%;
+    flex-direction: column;
+
+}

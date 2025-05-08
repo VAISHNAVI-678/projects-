@@ -1,0 +1,30 @@
+body
+{
+    background-color: paleturquoise;
+}
+h1.text 
+{
+     color: black;
+     background-color: green;
+}
+h2.text{
+    color: red;
+    background-color: green;
+}
+h3.text{
+    color: blue;
+    background-color: green;
+}
+h4.text{
+    color: purple;
+    background-color: green;
+}
+h5.text{
+    color: darkred;
+    background-color: green;
+}
+h6.text{
+    color: darkorange;
+    background-color: green;
+}
+
